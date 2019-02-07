@@ -1,0 +1,210 @@
+@charset "UTF-8";
+.systemMessageSpan{
+	color: red;
+	font-size: 250%;
+	padding-top: 50%;
+	padding-left: 40%;
+}
+.rounded{
+	border-radius: 25px;
+    /* border: 2px solid #73AD21; */
+}
+.opacity{
+	opacity: 0.4;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.menu{
+	width: 95%;
+	height: 4.6%;
+	background-color: rgba(243,245,142, 0);
+	margin: 0 auto;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+.main{
+	width: 95%;
+	height: 94%;
+	background-color: rgba(51,102,51, 0.6);
+	margin: 0 auto;
+	position: fixed;
+	margin-top: 2.5%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.scrollbar{
+    margin-left: 30px;
+    float: left;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+.scrollbar::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #D62929;
+}
+.background{
+	background-image: url("../images/backgrounds/20150614_123448.jpg");
+	background-position: center center;
+}
+.superfishdiv{
+	overflow:visible;
+	z-index:9;
+	position:relative;
+	background-color: rgba(51,102,51, 1);
+}
+
+.smallbutton{
+	height: 16px;
+	width: 16px;
+	border: none;
+	text-decoration: none;
+	background-color: transparent;
+	background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-align: center;
+}
+.add2button{
+	background-image: url("../images/buttons/add2_16x16.png");
+}
+.add2button:hover{
+	border-color: white;
+	border-style: solid;
+	width: 24px;
+	height: 24px;
+}
+.savebutton{
+	background-image: url("../images/buttons/save_16x16.png");
+}
+.savebutton:hover{
+	border-color: white;
+	border-style: solid;
+	width: 24px;
+	height: 24px;
+}
+.editiconbutton{
+	background-image: url("../images/buttons/edit_16x16.png");
+}
+.deleteiconbutton{
+	background-image: url("../images/buttons/delete_16x16.png");
+}
+.addiconbutton{
+	background-image: url("../images/buttons/add_16x16.png");
+}
+.addiconbuttondiv{
+	position: absolute;
+	top: 6%;
+	left: 0.5%;
+}
+.refreshiconbutton{
+	background-image: url("../images/buttons/refresh_16x16.png");
+}
+.detailsiconbutton{
+	background-image: url("../images/buttons/details_16x16.png");
+}
+.cascadingcategoryselectiondiv{
+	
+}
+.deletebutton{
+	background-image: url("../images/buttons/delete_16x16.png");
+}
+.deletebutton:hover{
+	border-color: white;
+	border-style: solid;
+	width: 24px;
+	height: 24px;
+}
+.moveupbutton{
+	background-image: url("../images/buttons/up_16x16.png");
+}
+.moveupbutton:hover{
+	border-color: white;
+	border-style: solid;
+	width: 24px;
+	height: 24px;
+}
+.lookupbutton{
+	background-image: url("../images/buttons/lookup_16x16.png");
+	width: 24px;
+	height: 24px;
+}
+.lookupbutton_with_record{
+	background-image: url("../images/buttons/lookup_16x16.png");
+	border-color: red;
+	border-style: solid;
+	width: 24px;
+	height: 24px;
+}
+.movedownbutton{
+	background-image: url("../images/buttons/down_16x16.png");
+}
+.movedownbutton:hover{
+	border-color: white;
+	border-style: solid;
+	width: 24px;
+	height: 24px;
+}
+.languagediv{
+	right: 200px;
+	position: absolute;
+}
+
+.usersessiondiv{
+	color: blue;
+	background-color: rgba(243,245,142, 0);
+	right: 0px;
+	position: absolute;
+}
+.usersessionul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.usersessionli{
+	float: left;
+}
+.usersessionli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.boderred{
+	border-style: solid;
+	border-color: red;
+}
+.usersessionl a:hover {
+    background-color: #111;
+}
+.norecordfound{
+	color: red;
+	font-size: 250%;
+	padding-top: 50%;
+	padding-left: 40%;
+}
+.createdbyspan{
+	font-size: smaller;
+}
+.readonlygray{
+	background-color: LightGray ;
+}

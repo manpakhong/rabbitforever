@@ -1,0 +1,10 @@
+@CHARSET "BIG5";
+.recentupdatediv{
+	z-index: 50;
+}
+.main{
+	z-index: 1;
+}
+.background{
+
+}

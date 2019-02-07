@@ -1,0 +1,32 @@
+@CHARSET "BIG5";
+.blogtablediv{
+	background-color: rgba(51,102,51, 0.6);
+}
+.blogtable{
+	padding: 10px;
+}
+.pagecontroldiv{
+	padding: 10px;
+}
+.blogfieldset{
+	width: 98%;
+}
+.blogeditform{
+	width: 98%;
+}
+.blogedittable{
+	width: 100%;
+}
+.blogSubjectInput{
+	width: 80%;
+}
+.blogRemarksTextArea{
+	width: 80%;
+}
+.categorySelectedDisplayInput{
+	width: 80%;
+}
+.addiconbuttonblog{
+	position: fixed;
+	margin-top: 1%;
+}

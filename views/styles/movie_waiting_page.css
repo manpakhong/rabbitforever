@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.moviewaitingseqinput{
+	width: 30px;
+}
+.movienameinput{
+	width: 200px;
+}
+.moviestatusinput{
+	width: 50px;
+}

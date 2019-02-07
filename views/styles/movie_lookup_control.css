@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+.movieLookupTable, .movieLookupTable th, .movieLookupTable td{
+	border: 0.5px solid #008080;
+}
+.hoverTr:hover{
+	background-color: #ffff99;
+}
+.hoverTr{
+
+}
+
+
+.nonDisplayTableColumn{
+	display: none;
+}
+.refreshInput{
+	
+}
+.buttonTd{
+	width: 35%;
+	text-align: center;
+}
+.criteriaTable{
+	width: 100%;
+}
+.labelTd{
+	width: 25%;
+}
+.dataTd{
+	width: 40%;
+}
+.lookupInput{
+	width: 100%;
+}
+.selected{
+	background-color: #ffff99;
+}

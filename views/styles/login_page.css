@@ -1,0 +1,13 @@
+@CHARSET "BIG5";
+.loginlegenddiv{
+	text-align:center;
+}
+.loginform{
+	margin: auto;
+	margin-top: 20%;
+	width: 30%;
+	height: 20%;
+}
+.legendspan{
+	font-weight: bold;
+}

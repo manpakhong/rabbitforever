@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//bundles/blog_page.properties=UTF-8
+encoding//bundles/common_page.properties=UTF-8
+encoding//bundles/control_page.properties=UTF-8
+encoding//bundles/login_page.properties=UTF-8
+encoding//bundles/movie_lookup_page.properties=UTF-8
+encoding//bundles/movie_page.properties=UTF-8
+encoding//bundles/movie_waiting_page.properties=UTF-8
+encoding//factories/ConnectionReusableBuilder.php=UTF-8
+encoding//logs/rabbitforever.log=UTF-8
+encoding//models/vos/LoginPageVo.php=UTF-8
+encoding//models/vos/UserVo.php=UTF-8
+encoding//models/vos/Vo.php=UTF-8
+encoding//tests/daos/MovieDaoTest.php=UTF-8
+encoding//tests/services/MovieMgrTest.php=UTF-8
